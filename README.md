@@ -8,6 +8,8 @@
     * [Line length](#line-length)
     * [Whitespace](#whitespace)
     * [Imports](#imports)
+* [XML](#xml)
+    * 
 * [Documentation](#documentation)
     * [Javadoc](#javadoc)
     * [Comments](#comments)
@@ -18,7 +20,7 @@
 Follow the official Android code style guidelines: [http://source.android.com/source/code-style.html](http://source.android.com/source/code-style.html)
 
 ### Indentation
-We use spaces for indentation. Do not use tabs in your code. You should set your editor to emit spaces when you hit the tab key.
+Use 4 spaces per indentation level and no tabs.
 
 ### Line Length
 Stick within the 120 char line limit. Use line breaks to split up code according to the style guidelines.
@@ -29,6 +31,22 @@ Code should not have any trailing whitespace to avoid creating unnecessary diff 
 ### Imports
 Please setup your IDE to remove all unused imports as a save action.
 
+## XML
+
+### Indentation
+Use 4 spaces per indentation level and no tabs.
+Each attribute should appear on its own line.
+
+### Structure
+If an ```@android:id``` attribute is used this should be the first attribute declared.
+
+### Id naming
+Layout resource ids should use the following naming convention where possible:
+```<layout name>_<object type>_<object name>```
+```home_listview_hotels```
+```hotel_item_imageview_star_rating```
+
+
 ## Documentation
 
 ### Javadoc
@@ -38,6 +56,7 @@ Javadoc any public methods, variables and constants. Javadoc private methods whe
 
 ### Comments
 Use in-line commenting to help the next developer who might be editing your code, even if it seems obvious now. Inline comments should appear on the line above the code your are commenting.
+Comment XML View elements using ```<!-- Comment -->```.
 
 ## Version control
 No commented out code must be committed unless you have a very good reason that is clearly described in a comment by the code you are ommitting.
