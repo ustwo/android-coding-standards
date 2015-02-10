@@ -18,7 +18,7 @@
     * [Comments](#comments)
 * [Version control](#version-control)
 
-### Code
+## Code
 #### Style
 Follow the official Android code style guidelines: [http://source.android.com/source/code-style.html](http://source.android.com/source/code-style.html)
 
@@ -34,7 +34,7 @@ Code should not have any trailing whitespace to avoid creating unnecessary diff 
 #### Imports
 Please setup your IDE to remove all unused imports as a save action.
 
-### XML
+## XML
 
 #### Indentation
 Use 4 spaces per indentation level and no tabs.
@@ -70,7 +70,7 @@ Given a layout called profile.xml:
 </LinearLayout> 
 ```
 
-### Documentation
+## Documentation
 
 #### Javadoc
 Any new classes that are committed must include a class descriptor Javadoc along with:
@@ -81,7 +81,7 @@ Javadoc any public methods, variables and constants. Javadoc private methods whe
 Use in-line commenting to help the next developer who might be editing your code, even if it seems obvious now. Inline comments should appear on the line above the code your are commenting.
 Comment XML View elements using ```<!-- Comment -->```.
 
-### Version control
+## Version control
 No commented out code must be committed unless you have a very good reason that is clearly described in a comment by the code you are ommitting.
 
 For further details on branching strategies used at ustwo please see: [http://ustwo.com/blog/branching-strategies-with-git/](http://ustwo.com/blog/branching-strategies-with-git/)
