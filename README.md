@@ -7,6 +7,7 @@
     * [Indentation](#indentation)
     * [Line length](#line-length)
     * [Whitespace](#whitespace)
+    * [Imports](#imports)
 
 ## Code
 ### Style
@@ -16,8 +17,11 @@ Follow the official Android code style guidelines: [http://source.android.com/so
 We use spaces for indentation. Do not use tabs in your code. You should set your editor to emit spaces when you hit the tab key.
 
 ### Line Length
-Stick within the 100 char line limit. Use line breaks to split up code according to the style guidelines.
+Stick within the 120 char line limit. Use line breaks to split up code according to the style guidelines.
 
 ### Whitespace
 Code should not have any trailing whitespace to avoid creating unnecessary diff issues. Please setup your IDE to remove these as a save action.
+
+### Imports
+Please setup your IDE to remove all unused imports as a save action.
 
