@@ -9,6 +9,8 @@
     * [Whitespace](#whitespace)
     * [Imports](#imports)
 * [Documentation](#documentation)
+    * [Javadoc](#javadoc)
+    * [Comments](#comments)
 
 ## Code
 ### Style
@@ -27,9 +29,12 @@ Code should not have any trailing whitespace to avoid creating unnecessary diff 
 Please setup your IDE to remove all unused imports as a save action.
 
 ## Documentation
- * Any new classes that are committed must include a class descriptor Javadoc along with the '''@author name@address.com'''
- * Put inline comments on the line above the code your are commenting.
- * Use in-line commenting to help the next developer who might be editing your code, even if it seems obvious now.
- * Javadoc any methods that benefit. All library methods MUST have Javadoc
- * Javadoc any public methods, variables and constants.
+
+### Javadoc
+Any new classes that are committed must include a class descriptor Javadoc along with:
+```@author name@address.com```
+Javadoc any public methods, variables and constants. Javadoc private methods where beneficial.
+
+### Comments
+Use in-line commenting to help the next developer who might be editing your code, even if it seems obvious now. Inline comments should appear on the line above the code your are commenting.
 
