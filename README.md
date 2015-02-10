@@ -11,6 +11,7 @@
 * [Documentation](#documentation)
     * [Javadoc](#javadoc)
     * [Comments](#comments)
+* [Version control](#version-control)
 
 ## Code
 ### Style
@@ -37,4 +38,9 @@ Javadoc any public methods, variables and constants. Javadoc private methods whe
 
 ### Comments
 Use in-line commenting to help the next developer who might be editing your code, even if it seems obvious now. Inline comments should appear on the line above the code your are commenting.
+
+## Version control
+No commented out code must be committed unless you have a very good reason that is clearly described in a comment by the code you are ommitting.
+
+For further details on branching strategies used at ustwo please see: [http://ustwo.com/blog/branching-strategies-with-git/](http://ustwo.com/blog/branching-strategies-with-git/)
 
