@@ -9,7 +9,9 @@
     * [Whitespace](#whitespace)
     * [Imports](#imports)
 * [XML](#xml)
-    * 
+    * [Indentation](#indentation)
+    * [Structure](#structure)
+    * [Id names](#id-names)
 * [Documentation](#documentation)
     * [Javadoc](#javadoc)
     * [Comments](#comments)
@@ -40,12 +42,13 @@ Each attribute should appear on its own line.
 ### Structure
 If an ```@android:id``` attribute is used this should be the first attribute declared.
 
-### Id naming
+### Id names
 Layout resource ids should use the following naming convention where possible:
-```<layout name>_<object type>_<object name>```
-```home_listview_hotels```
-```hotel_item_imageview_star_rating```
-
+```
+<layout name>_<object type>_<object name>
+home_listview_hotels
+hotel_item_imageview_star_rating
+```
 
 ## Documentation
 
