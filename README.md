@@ -42,6 +42,7 @@ Each attribute should appear on its own line.
 
 #### Structure
 If an ```@android:id``` attribute is used this should be the first attribute declared.
+Add a space between the closing slash and the final attribute. E.g. ```android:textSize="10dp" />```
 
 #### Id names
 Layout resource ids should use the following naming convention where possible:<br/>
@@ -60,13 +61,13 @@ Given a layout called profile.xml:
     xmlns:android="http://schemas.android.com/apk/res/android" 
     android:layout_width="match_parent" 
     android:layout_height="match_parent"
-    android:orientation="vertical"> 
+    android:orientation="vertical" > 
 
     <!-- Avatar icon -->
     <ImageView
         android:id="@+id/profile_imageview_avatar" 
         android:layout_width="wrap_content" 
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 </LinearLayout> 
 ```
 
