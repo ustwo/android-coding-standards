@@ -41,8 +41,13 @@ Use 4 spaces per indentation level and no tabs.
 Each attribute should appear on its own line.
 
 #### Structure
-If an ```@android:id``` attribute is used this should be the first attribute declared.
+XML tags should be ordered as follows: 'xmlns' first, then id, then layout_width and layout_height then alphabetically. 
+
 Add a space between the closing slash and the final attribute. E.g. ```android:textSize="10dp" />```
+
+#### IDE Auto format
+
+Automatic formatting rules for our coding standards are stored in an Android Studio file inside the root of this repository. Please use File > Import Settings and select "android_studio_settings.jar" to ensure you get the same rules.
 
 #### Id names
 Layout resource ids should use the following naming convention where possible:<br/>
