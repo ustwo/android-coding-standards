@@ -90,5 +90,5 @@ Comment XML View elements using ```<!-- Comment -->```.
 ## Version control
 No commented out code must be committed unless you have a very good reason that is clearly described in a comment by the code you are ommitting.
 
-For further details on branching strategies used at ustwo please see: [http://ustwo.com/blog/branching-strategies-with-git/](http://ustwo.com/blog/branching-strategies-with-git/)
+For further details on branching strategies used at ustwo please see: [https://www.ustwo.com/blog/branching-strategies-with-git/](https://www.ustwo.com/blog/branching-strategies-with-git/)
 
